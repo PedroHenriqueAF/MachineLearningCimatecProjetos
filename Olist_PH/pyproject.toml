@@ -18,6 +18,7 @@ classifiers = [
 dependencies = [
     "ipython",
     "jupyterlab",
+    "lightgbm",
     "loguru",
     "matplotlib",
     "mkdocs",
@@ -32,6 +33,7 @@ dependencies = [
     "scikit-learn",
     "tqdm",
     "typer",
+    "xgboost",
     "ydata-profiling",
 ]
 requires-python = "~=3.14.0"
