@@ -24,6 +24,7 @@ dependencies = [
     "notebook",
     "numpy",
     "pandas",
+    "pandera",
     "pip",
     "pytest",
     "python-dotenv",
@@ -31,6 +32,7 @@ dependencies = [
     "scikit-learn",
     "tqdm",
     "typer",
+    "ydata-profiling",
 ]
 requires-python = "~=3.14.0"
 
@@ -46,4 +48,3 @@ extend-select = ["I"]  # Add import sorting
 [tool.ruff.lint.isort]
 known-first-party = ["module_olist"]
 force-sort-within-sections = true
-
