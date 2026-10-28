@@ -31,10 +31,11 @@ dependencies = [
     "python-dotenv",
     "ruff",
     "scikit-learn",
+    "shap",
     "tqdm",
     "typer",
     "xgboost",
-    "ydata-profiling",
+    "fg-data-profiling",
 ]
 requires-python = "~=3.14.0"
 
